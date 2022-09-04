@@ -1,0 +1,3 @@
+const getGifs = async ( category ) => {
+    
+}
