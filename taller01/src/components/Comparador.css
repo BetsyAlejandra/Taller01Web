@@ -12,11 +12,6 @@ body {
     background-color: beige;
 }
 
-#nav {
-    background-color: black;
-    height: 8vh;
-}
-
 button{
     height: 28px;
     width: 120px;
