@@ -33,6 +33,7 @@ export const PreciodeLlamada = () => {
                 onChange={handleOnChange}
                 value={llamada}>
             </input>
+            <br/>
             <button onClick={() => (precioLlamada(llamada))}> Convertir </button>
             <h3> {precio} </h3>
         </div>

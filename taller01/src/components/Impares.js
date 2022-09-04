@@ -26,6 +26,7 @@ export const Impares = () => {
             <h1> Ingrese un Número </h1>
             <input onChange={handleNumeroP}
                 value={num}></input>
+                <br/>
             <button onClick={handleNumeroImpar}> Mostrar </button>
             <h2> {impar} </h2>
         </>

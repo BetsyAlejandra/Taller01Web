@@ -27,8 +27,9 @@ return (
     <h1> Digite la hora en Horario Militar </h1>
     <input onChange={handleChangeSaludo}
     value={horaM}></input>
+    <br/>
     <button onClick={() => (handleSaludar(horaM))}> Enviar </button>
-    <h1> {saludo} </h1>
+    <h2> {saludo} </h2>
     </>
 )
 }

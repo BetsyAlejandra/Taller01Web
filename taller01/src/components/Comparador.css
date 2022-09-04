@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Joynoted Demo';
+    src: url('./Joynoted\ Demo.ttf');
+}
+@font-face {
+    font-family: 'SmallMemory';
+    src: url('./SmallMemory.ttf');
+}
+
+body {
+    margin: 0;
+    background-color: beige;
+}
+
+#nav {
+    background-color: black;
+    height: 8vh;
+}
+
+button{
+    height: 28px;
+    width: 120px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-family: 'AvocadoCake';
+    font: lighter;
+    margin-top: 10px;
+    color: whitesmoke;
+    background-color: black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-family: 'Joynoted Demo';
+    font-weight: bolder;
+    align-content: center;
+}
+
+input{
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    font-family: 'SmallMemory';
+    font-size: 25px;
+}
+
+h2{
+    font-family: 'Joynoted Demo';
+    font-size: 25px;
+}
+
+h3{
+    font-family: 'Joynoted Demo';
+    font-size: 25px;
+}

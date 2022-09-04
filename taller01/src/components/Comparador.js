@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './Comparador.css'
 
 export const Comparador = () => {
 
@@ -43,7 +44,7 @@ export const Comparador = () => {
                 <br />
             <button onClick={() => (handleAgregar())}> Agregar </button>
             <button onClick={() => (handleComparar())}> Comparar </button>
-            <h3> {duplicado} </h3>
+            <h1> {duplicado} </h1>
         </>
     )
 }

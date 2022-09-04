@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Diseño } from './Diseño';
+import { Comparador } from './components/Comparador';
+import { Convertidor } from './components/Convertidor';
+import { Impares } from './components/Impares';
+import { PreciodeLlamada } from './components/Llamadas';
+import { Saludo  } from './components/Saludo';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Diseño />
+    <Convertidor />
+    <Comparador />
+    <Impares />
+    <PreciodeLlamada />
+    <Saludo />
   </React.StrictMode>
 );
 

@@ -23,6 +23,7 @@ export const Salario = () => {
         <label> Salario </label> <br/>
         <input onChange={handleSalario}
         value={salarioAux}> </input>
+        <br/>
         <button onClick={handleAgregarSalario}> Agregar </button>
         <h2> {mensaje} </h2>
         </>
