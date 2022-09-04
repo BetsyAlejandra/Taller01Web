@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import { Diseño } from './Diseño';
+import { Comparador } from './components/Comparador';
+import { Convertidor } from './components/Convertidor';
+import { Impares } from './components/Impares';
+import { PreciodeLlamada } from './components/Llamadas';
+import { Saludo  } from './components/Saludo';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <BrowserRouter>
+                <Routes>
+                    <Route path='/' element={<Diseño />} />
+                    <Route path='/Comparador' element={<Comparador />} />
+                    <Route path='/Convertidor' element={<Convertidor />} />
+                    <Route path='/Impares' element={<Impares />} />
+                    <Route path='/PreciodeLlamada' element={<PreciodeLlamada />} />
+                    <Route path='/Saludo' element={<Saludo />} />
+                </Routes>
+            </BrowserRouter></>
+  )
 }
 
 export default App;
